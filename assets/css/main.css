@@ -1,3 +1,148 @@
+@charset "UTF-8";
+/**
+ * @license
+ * MyFonts Webfont Build ID 3422041, 2017-07-15T10:21:53-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: LotaGrotesque-BoldIt by Los Andes
+ * URL: https://www.myfonts.com/fonts/los-andes/lota-grotesque/bold-italic/
+ * Licensed pageviews: 10,000
+ * 
+ * Webfont: LotaGrotesque-LightIt by Los Andes
+ * URL: https://www.myfonts.com/fonts/los-andes/lota-grotesque/light-italic/
+ * Licensed pageviews: 10,000
+ * 
+ * Webfont: LotaGrotesque-RegularIt by Los Andes
+ * URL: https://www.myfonts.com/fonts/los-andes/lota-grotesque/regular-italic/
+ * Licensed pageviews: 10,000
+
+ * Webfont: LotaGrotesque-ThinIt by Los Andes
+ * URL: https://www.myfonts.com/fonts/los-andes/lota-grotesque/thin-italic/
+ * Licensed pageviews: 10,000
+
+ * Webfont: LotaGrotesque-Black by Los Andes
+ * URL: https://www.myfonts.com/fonts/los-andes/lota-grotesque/black/
+ * Licensed pageviews: 10,000
+ * 
+ * Webfont: LotaGrotesque-BlackIt by Los Andes
+ * URL: https://www.myfonts.com/fonts/los-andes/lota-grotesque/black-italic/
+ * Licensed pageviews: 10,000
+ * 
+ * Webfont: LotaGrotesque-Bold by Los Andes
+ * URL: https://www.myfonts.com/fonts/los-andes/lota-grotesque/bold/
+ * Licensed pageviews: 10,000
+ * 
+ * Webfont: LotaGrotesque-ExLight by Los Andes
+ * URL: https://www.myfonts.com/fonts/los-andes/lota-grotesque/extra-light/
+ * Licensed pageviews: 10,000
+ * 
+ * Webfont: LotaGrotesque-ExLightIt by Los Andes
+ * URL: https://www.myfonts.com/fonts/los-andes/lota-grotesque/extra-light-italic/
+ * Licensed pageviews: 10,000
+ * 
+ * Webfont: LotaGrotesque-Light by Los Andes
+ * URL: https://www.myfonts.com/fonts/los-andes/lota-grotesque/light/
+ * Licensed pageviews: 10,000
+ * 
+ * Webfont: LotaGrotesque-Regular by Los Andes
+ * URL: https://www.myfonts.com/fonts/los-andes/lota-grotesque/regular/
+ * Licensed pageviews: 10,000
+ * 
+ * Webfont: LotaGrotesque-SemiBold by Los Andes
+ * URL: https://www.myfonts.com/fonts/los-andes/lota-grotesque/semi-bold/
+ * Licensed pageviews: 10,000
+ * 
+ * Webfont: LotaGrotesque-SemiBoldIt by Los Andes
+ * URL: https://www.myfonts.com/fonts/los-andes/lota-grotesque/semi-bold-italic/
+ * Licensed pageviews: 10,000
+ * 
+ * Webfont: LotaGrotesque-Thin by Los Andes
+ * URL: https://www.myfonts.com/fonts/los-andes/lota-grotesque/thin/
+ * Licensed pageviews: 10,000
+ * 
+ * 
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3422041
+ * Webfonts copyright: Copyright &#x00A9; 2017 by Daniel Hernandez. All rights reserved.
+ * 
+ * © 2017 MyFonts Inc
+*/
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/343759");
+@font-face {
+  font-family: 'LotaGrotesque-BoldIt';
+  src: url("webfonts/343759_0_0.eot");
+  src: url("webfonts/343759_0_0.eot?#iefix") format("embedded-opentype"), url("webfonts/343759_0_0.woff2") format("woff2"), url("webfonts/343759_0_0.woff") format("woff"), url("webfonts/343759_0_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'LotaGrotesque-LightIt';
+  src: url("webfonts/343759_1_0.eot");
+  src: url("webfonts/343759_1_0.eot?#iefix") format("embedded-opentype"), url("webfonts/343759_1_0.woff2") format("woff2"), url("webfonts/343759_1_0.woff") format("woff"), url("webfonts/343759_1_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'LotaGrotesque-RegularIt';
+  src: url("webfonts/343759_2_0.eot");
+  src: url("webfonts/343759_2_0.eot?#iefix") format("embedded-opentype"), url("webfonts/343759_2_0.woff2") format("woff2"), url("webfonts/343759_2_0.woff") format("woff"), url("webfonts/343759_2_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'LotaGrotesque-ThinIt';
+  src: url("webfonts/343759_4_0.eot");
+  src: url("webfonts/343759_4_0.eot?#iefix") format("embedded-opentype"), url("webfonts/343759_4_0.woff2") format("woff2"), url("webfonts/343759_4_0.woff") format("woff"), url("webfonts/343759_4_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'LotaGrotesque-Black';
+  src: url("webfonts/343759_C_0.eot");
+  src: url("webfonts/343759_C_0.eot?#iefix") format("embedded-opentype"), url("webfonts/343759_C_0.woff2") format("woff2"), url("webfonts/343759_C_0.woff") format("woff"), url("webfonts/343759_C_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'LotaGrotesque-BlackIt';
+  src: url("webfonts/343759_D_0.eot");
+  src: url("webfonts/343759_D_0.eot?#iefix") format("embedded-opentype"), url("webfonts/343759_D_0.woff2") format("woff2"), url("webfonts/343759_D_0.woff") format("woff"), url("webfonts/343759_D_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'LotaGrotesque-Bold';
+  src: url("webfonts/343759_E_0.eot");
+  src: url("webfonts/343759_E_0.eot?#iefix") format("embedded-opentype"), url("webfonts/343759_E_0.woff2") format("woff2"), url("webfonts/343759_E_0.woff") format("woff"), url("webfonts/343759_E_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'LotaGrotesque-ExLight';
+  src: url("webfonts/343759_F_0.eot");
+  src: url("webfonts/343759_F_0.eot?#iefix") format("embedded-opentype"), url("webfonts/343759_F_0.woff2") format("woff2"), url("webfonts/343759_F_0.woff") format("woff"), url("webfonts/343759_F_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'LotaGrotesque-ExLightIt';
+  src: url("webfonts/343759_10_0.eot");
+  src: url("webfonts/343759_10_0.eot?#iefix") format("embedded-opentype"), url("webfonts/343759_10_0.woff2") format("woff2"), url("webfonts/343759_10_0.woff") format("woff"), url("webfonts/343759_10_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'LotaGrotesque-Light';
+  src: url("webfonts/343759_11_0.eot");
+  src: url("webfonts/343759_11_0.eot?#iefix") format("embedded-opentype"), url("webfonts/343759_11_0.woff2") format("woff2"), url("webfonts/343759_11_0.woff") format("woff"), url("webfonts/343759_11_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'LotaGrotesque-Regular';
+  src: url("webfonts/343759_12_0.eot");
+  src: url("webfonts/343759_12_0.eot?#iefix") format("embedded-opentype"), url("webfonts/343759_12_0.woff2") format("woff2"), url("webfonts/343759_12_0.woff") format("woff"), url("webfonts/343759_12_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'LotaGrotesque-SemiBold';
+  src: url("webfonts/343759_13_0.eot");
+  src: url("webfonts/343759_13_0.eot?#iefix") format("embedded-opentype"), url("webfonts/343759_13_0.woff2") format("woff2"), url("webfonts/343759_13_0.woff") format("woff"), url("webfonts/343759_13_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'LotaGrotesque-SemiBoldIt';
+  src: url("webfonts/343759_14_0.eot");
+  src: url("webfonts/343759_14_0.eot?#iefix") format("embedded-opentype"), url("webfonts/343759_14_0.woff2") format("woff2"), url("webfonts/343759_14_0.woff") format("woff"), url("webfonts/343759_14_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'LotaGrotesque-Thin';
+  src: url("webfonts/343759_15_0.eot");
+  src: url("webfonts/343759_15_0.eot?#iefix") format("embedded-opentype"), url("webfonts/343759_15_0.woff2") format("woff2"), url("webfonts/343759_15_0.woff") format("woff"), url("webfonts/343759_15_0.ttf") format("truetype"); }
+
 /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -297,8 +442,8 @@ template {
 [hidden] {
   display: none; }
 
-.gigantic h1, .gigantic h2, .gigantic h3, .gigantic h4, .gigantic h5, .huge h1, .huge h2, .huge h3, .huge h4, .huge h5, .large h1, .large h2, .large h3, .large h4, .large h5, .bigger h1, .bigger h2, .bigger h3, .bigger h4, .bigger h5, .big h1, .big h2, .big h3, .big h4, .big h5 {
-  color: #2E2D33;
+h1, h2, h3, h4, h5 {
+  color: #2B3A42;
   font-weight: bold; }
 
 .gigantic {
@@ -306,24 +451,24 @@ template {
   line-height: 1.09;
   letter-spacing: -2px; }
 
-.huge h1 {
+h1 {
   font-size: 68px;
   line-height: 1.05;
   letter-spacing: -1px; }
 
-.large h2 {
+h2 {
   font-size: 42px;
   line-height: 1.14; }
 
-.bigger, h3 {
+h3 {
   font-size: 26px;
   line-height: 1.38; }
 
-.big, h4 {
+h4 {
   font-size: 22px;
   line-height: 1.38; }
 
-.small, small {
+.small {
   font-size: 10px;
   line-height: 1.2; }
 
@@ -344,12 +489,12 @@ hr {
   height: 0; }
 
 a {
-  color: #F6C;
+  color: #3F5665;
   text-decoration: none;
   outline: 0; }
 
 a:hover, a:focus {
-  color: #ffccee; }
+  color: #698ba1; }
 
 ::-moz-selection {
   background: #FFF498; }
@@ -373,10 +518,10 @@ body {
   -webkit-tap-highlight-color: #FFF498; }
 
 body {
-  background: #F6F6F8;
+  background: #F7F7F7;
   font-size: 14px;
   line-height: 1.6;
-  font-family: 'Open Sans', sans-serif;
-  color: #2E2D33;
+  font-family: 'LotaGrotesque-Black', sans-serif;
+  color: #2B3A42;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%; }
