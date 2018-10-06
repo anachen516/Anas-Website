@@ -2,6 +2,7 @@
 
 a {
   opacity: 1;
+  font-family: 'LotaGrotesque-black', arial, sans-serif;
   
   &:hover {
     opacity: .7;
@@ -13,96 +14,119 @@ a {
     }  
 }
 
+
 // Header //
 
-header.home-wrap {
-  height: 72px;
+header {
+  position: fixed;
+  top: 0;
   background: #2B3A42;
-  padding: 0px;
-  display: flex;
-  justify-content: space-between;
-  
-  a.back-to-top {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  min-height: 72px;
+
+  .header-wrap {
     width: 100%;
-    max-width: 36px;
-    margin: 18px;
-    padding: 0;
-    display: inline-block;
-    background: url(/assets/images/icon-up-arrow.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    cursor: pointer;
-  }
-  
-  h1.logo {
-    @include hide-text;
-    width: 36px;
-    font-size: 36px;
-    margin: 16px;
-    display: inline-block;
-    background: url(/assets/images/ana-logo_1x.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  
-  .nav-toggle {
-    width: 36px;
-    height: 36px;
-    border: none;
-    margin: 18px;
-    padding: 0;
+    max-width: 960px;
+    margin: auto;
     display: flex;
-    align-items: center;
-    cursor: pointer;
-//    background-color: deeppink;
-    
-    span,
-    span:before,
-    span:after {
-      content: "";
-      display: block;
-      position: relative;
-      height: 5px;
+    padding: 0px;
+    justify-content: space-between;
+
+
+    a.back-to-top {
       width: 100%;
-      border-radius: 6px;
-      background: white;
+      height: 36px;
+      max-width: 36px;
+      margin: 18px;
+      padding: 0;
+      display: inline-block;
+      background: url(/assets/images/icon-up-arrow.svg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      cursor: pointer;
     }
-        
-    span:before {
-      top: 12px;
+
+    h1.logo {
+      @include hide-text;
+      width: 36px;
+      font-size: 36px;
+      margin: 16px;
+      display: inline-block;
+      background: url(/assets/images/ana-logo_1x.png);
+      background-repeat: no-repeat;
+      background-size: cover;
     }
-    
-    span:after {
-      top: -17px;
-    }      
-    
-    &:hover span {
-      background: transparent;
-    }
-    
-    &:hover span:before {
-      transform-origin: center;
-      transform: rotate(45deg);
-      top: 0;
-      transition: .2s;
-      transition-timing-function: ease;
-    }
-    &:hover span:after {
-      transform-origin: center;
-      transform: rotate(-45deg);
-      top: -5px;
-      transition: .2s;
-      transition-timing-function: ease;
+
+    .nav-toggle {
+      width: 36px;
+      height: 36px;
+      border: none;
+      margin: 18px;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+
+      span,
+      span:before,
+      span:after {
+        content: "";
+        display: block;
+        position: relative;
+        height: 5px;
+        width: 100%;
+        border-radius: 6px;
+        background: white;
+      }
+
+      span:before {
+        top: 12px;
+      }
+
+      span:after {
+        top: -17px;
+      }      
+
+      &:is-open  span {
+        background: transparent;
+      }
+
+      &:is-open span:before {
+        transform-origin: center;
+        transform: rotate(45deg);
+        top: 0;
+        transition: .2s;
+        transition-timing-function: ease;
+      }
+      &:is-open  span:after {
+        transform-origin: center;
+        transform: rotate(-45deg);
+        top: -5px;
+        transition: .2s;
+        transition-timing-function: ease;
+      }
     }
   }
 }
 
 // Menu //
 
-nav.main {
-  background: $accent-color;
+.main-nav {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  max-width: 450px;
+  background: $accent-color;
+  background-size: cover;
+  transform: translateX(-100%);
+  transition: all 1s ease-in-out;
   
   a {
     color: white;
@@ -125,6 +149,7 @@ nav.main {
     height: 70vh;
     min-height: 250px;
     justify-content: center;
+    margin-top: 72px;
     
     li {
       display: block;
@@ -139,6 +164,7 @@ nav.main {
     flex-direction: row;
     display: flex;
     justify-content: center;
+    align-self: flex-end;
     
     li {
       margin: 0 18px 18px 18px;
@@ -176,7 +202,11 @@ nav.main {
     } 
   }
 }
-  
+
+.main-nav.is-open {
+  transform: translateX(0%);
+}
+
 @media (max-width: 775px) {
   
 }
