@@ -1,0 +1,66 @@
+section.about {
+  height: 100vh;
+  position: relative;
+  text-align: center;
+  max-width: 960px;
+  margin: auto;
+}
+  
+  h1 {
+    font-family: 'LotaGrotesque-black', sans-serif;
+  
+  }
+
+
+
+.nav-toggle {
+  width: 36px;
+  height: 36px;
+  border: none;
+  margin: 18px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  float: right;
+  @include clearfix;
+
+  span,
+  span:before,
+  span:after {
+    content: "";
+    display: block;
+    position: relative;
+    height: 5px;
+    width: 100%;
+    border-radius: 6px;
+    background: $text-color;
+  }
+
+  span:before {
+    top: 12px;
+  }
+
+  span:after {
+    top: -17px;
+  }      
+
+  &:is-open  span {
+    background: transparent;
+  }
+
+  &:is-open span:before {
+    transform-origin: center;
+    transform: rotate(45deg);
+    top: 0;
+    transition: .2s;
+    transition-timing-function: ease;
+  }
+  &:is-open  span:after {
+    transform-origin: center;
+    transform: rotate(-45deg);
+    top: -5px;
+    transition: .2s;
+    transition-timing-function: ease;
+  }
+}

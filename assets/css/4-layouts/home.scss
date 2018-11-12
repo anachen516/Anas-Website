@@ -1,5 +1,5 @@
 .home-wrap {
-  display: flex;
+  z-index: 2;
 
   @media (max-width: 775px) {
 
@@ -8,12 +8,13 @@
 
 .home-sections {
   flex: 1;
-  margin-top: 72px;
   
   section {
-    padding: 36px 0;
+    padding: 36px 0;  
   }
-  
+  section.about {
+    padding: 0;
+  }
   .flex {
     display: flex;
     flex-direction: row;
@@ -29,15 +30,14 @@
 
 // Columns
 .col-1 {
+  
   max-width: 300px;
   margin: 0 10px;
-  background: pink;
 }
 
 .col-2 {
   max-width: 620px;
   margin: 0 10px;
-  background: pink;
 }
 
 .col-50 {

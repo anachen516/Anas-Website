@@ -19,12 +19,14 @@ a {
 
 header {
   position: fixed;
+  z-index: 1;
   top: 0;
   background: #2B3A42;
   width: 100%;
   margin: auto;
   text-align: center;
   min-height: 72px;
+  transform: translateY(-100%);
 
   .header-wrap {
     width: 100%;
@@ -118,6 +120,7 @@ header {
   flex-direction: column;
   justify-content: space-between;
   position: fixed;
+  z-index: 2;
   top: 0;
   left: 0;
   height: 100vh;

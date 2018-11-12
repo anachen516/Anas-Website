@@ -509,12 +509,15 @@ a {
 
 header {
   position: fixed;
+  z-index: 1;
   top: 0;
   background: #2B3A42;
   width: 100%;
   margin: auto;
   text-align: center;
-  min-height: 72px; }
+  min-height: 72px;
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%); }
   header .header-wrap {
     width: 100%;
     max-width: 960px;
@@ -598,6 +601,7 @@ header {
   -ms-flex-pack: justify;
       justify-content: space-between;
   position: fixed;
+  z-index: 2;
   top: 0;
   left: 0;
   height: 100vh;
@@ -670,16 +674,75 @@ header {
   -webkit-transform: translateX(0%);
           transform: translateX(0%); }
 
-.home-wrap {
+section.about {
+  height: 100vh;
+  position: relative;
+  text-align: center;
+  max-width: 960px;
+  margin: auto; }
+
+h1 {
+  font-family: 'LotaGrotesque-black', sans-serif; }
+
+.nav-toggle {
+  width: 36px;
+  height: 36px;
+  border: none;
+  margin: 18px;
+  padding: 0;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  cursor: pointer;
+  float: right; }
+  .nav-toggle::after {
+    clear: both;
+    content: "";
+    display: block; }
+  .nav-toggle span,
+  .nav-toggle span:before,
+  .nav-toggle span:after {
+    content: "";
+    display: block;
+    position: relative;
+    height: 5px;
+    width: 100%;
+    border-radius: 6px;
+    background: #2B3A42; }
+  .nav-toggle span:before {
+    top: 12px; }
+  .nav-toggle span:after {
+    top: -17px; }
+  .nav-toggle:is-open span {
+    background: transparent; }
+  .nav-toggle:is-open span:before {
+    -webkit-transform-origin: center;
+            transform-origin: center;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+    top: 0;
+    transition: .2s;
+    transition-timing-function: ease; }
+  .nav-toggle:is-open span:after {
+    -webkit-transform-origin: center;
+            transform-origin: center;
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    top: -5px;
+    transition: .2s;
+    transition-timing-function: ease; }
+
+.home-wrap {
+  z-index: 2; }
 
 .home-sections {
   -ms-flex: 1;
-      flex: 1;
-  margin-top: 72px; }
+      flex: 1; }
   .home-sections section {
     padding: 36px 0; }
+  .home-sections section.about {
+    padding: 0; }
   .home-sections .flex {
     display: -ms-flexbox;
     display: flex;
@@ -694,13 +757,11 @@ header {
 
 .col-1 {
   max-width: 300px;
-  margin: 0 10px;
-  background: pink; }
+  margin: 0 10px; }
 
 .col-2 {
   max-width: 620px;
-  margin: 0 10px;
-  background: pink; }
+  margin: 0 10px; }
 
 .col-50 {
   width: 50%; }
